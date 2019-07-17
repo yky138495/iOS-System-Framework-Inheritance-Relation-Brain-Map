@@ -1,0 +1,60 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 2A5CCE06-7AAD-3814-9C9E-34B95EEF6BD7', 'x86_64: 286D7CCA-9424-3582-95AE-F04E0880C898' ]
+platform:        ios
+install-name:    /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+current-version: 33
+objc-constraint: none
+exports:         
+  - archs:           [ i386 ]
+    objc-classes:    [ CNContactActionsViewController ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _ABAddressBookBundle, _ABAddressBookGetDefaultRotationContentSettings, 
+                       _ABAddressBookSetAutorotationEnabled, _ABAddressBookShouldAllowAutorotation, 
+                       _ABCapabilitiesConferenceHistoryChanged, _ABHilightedColorAttributeName, 
+                       _ABNotesFontAttributeName, _ABNotesTextColorAttributeName, 
+                       _ABTextStyleAttributeName, _CNActionsViewDefaultSpacing, _CNActionsViewLargeTextSpacing, 
+                       _CNAvatarViewDefaultSize, _CNContactPickerViewControllerPickerDidHideNotification, 
+                       _CNContactPickerViewControllerPickerDidShowNotification, _CNContactUIBirthdaysKey, 
+                       _CNContactUISystemCalendarKey, _CNContactsUIBundle, _CNQuickActionCategoryAddToContacts, 
+                       _CNQuickActionCategoryAudioCall, _CNQuickActionCategoryInfo, 
+                       _CNQuickActionCategoryInstantMessage, _CNQuickActionCategoryMail, 
+                       _CNQuickActionCategoryVideoCall, _CNUIContactActionDestinationType, 
+                       _CNUIContactActionDestinationTypeEmail, _CNUIContactActionDestinationTypeFaceTime, 
+                       _CNUIContactActionDestinationTypeFaceTimeAudio, _CNUIContactActionDestinationTypePhoneNumber, 
+                       _CNUIContactActionFaceTimeMediaType, _CNUIContactActionFaceTimeMediaTypeAudioOnly, 
+                       _CNUIContactActionFaceTimeMediaTypeVideo, _CNUIContactActionShareActivityType, 
+                       _CNUIContactActionTapPropertyIdentifier, _CNUIContactActionTypeAddToFavorites, 
+                       _CNUIContactActionTypeFaceTime, _CNUIContactActionTypeLink, 
+                       _CNUIContactActionTypeSendMessage, _CNUIContactActionTypeShare, 
+                       _CNUIContactActionTypeTapProperty, _CNUIContactActionTypeUnlink, 
+                       _CNUIContactsUIErrorDomain, _CNUIDataCollectorActionTypeAttributeContact, 
+                       _CNUIDataCollectorActionTypeAttributeLabeledValue, _CNUIIsActivity, 
+                       _CNUIIsContacts, _CNUIIsDDActionsService, _CNUIIsFaceTime, 
+                       _CNUIIsFirstParty, _CNUIIsMessages, _CNUIIsMobilePhone, _CNUIIsWatchCompanion, 
+                       _CNUIPixelAlignedPoint, _CNUIPixelAlignedRect, _CNUIPixelAlignedSize, 
+                       _CNUIRoundToViewScale, _CNUISetLoggingBlock, _CNUISetUseSiriLocalization, 
+                       _CNUIShouldUseSiriLocalization, __CNUILog, _kCNActionViewMaxLabelWidth, 
+                       _kCNActionViewPlatterSize, _kCNTransportButtonSize ]
+    objc-classes:    [ CNActionItem, CNActionView, CNActionsView, CNAvatarCardController, 
+                       CNAvatarImageRenderer, CNAvatarImageRendererSettings, CNAvatarImageRenderingScope, 
+                       CNAvatarView, CNAvatarViewController, CNAvatarViewControllerSettings, 
+                       CNCapabilitiesManager, CNCardActionGroupItem, CNCardGroup, 
+                       CNCardGroupItem, CNCardPropertyGroup, CNContactAction, CNContactActionsController, 
+                       CNContactCell, CNContactContentViewController, CNContactCustomDataSource, 
+                       CNContactDisplayHeaderController, CNContactFilter, CNContactGridViewController, 
+                       CNContactHeaderDisplayView, CNContactHeaderEditView, CNContactHeaderView, 
+                       CNContactInlineActionsViewController, CNContactListBannerView, 
+                       CNContactListViewController, CNContactNavigationController, 
+                       CNContactOrbHeaderView, CNContactPicker, CNContactPickerViewController, 
+                       CNContactQuickActionsController, CNContactSection, CNContactStoreDataSource, 
+                       CNContactStoreFilter, CNContactStyle, CNContactView, CNContactViewController, 
+                       CNMonogrammer, CNMultipleUnknownContactsViewController, CNPostalAddressEditorNavigationController, 
+                       CNPropertyGroupItem, CNQuickAction, CNQuickActionsView, CNStarkContactViewController, 
+                       CNStarkContactsBrowserViewController, CNStarkContactsListViewController, 
+                       CNStyleProvider, CNTabletStyleProvider, CNTransportButton, 
+                       CNUIContactsEnvironment, CNUIDataCollector, CNUIDraggingContacts, 
+                       CNUIFavoritesEntryPicker, CNUINavigationListItem, CNUINavigationListViewController, 
+                       CNUnknownContactsController, CNVCardImportController, CNVCardViewController, 
+                       _CNAvatarView ]
+...

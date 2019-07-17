@@ -1,0 +1,33 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: BE32721A-7FDE-3152-ADB4-3413016ACD23', 'x86_64: 8DE29CCB-5E43-3D26-9235-9A7D68871E34' ]
+platform:        ios
+install-name:    /System/Library/Frameworks/ReplayKit.framework/ReplayKit
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _RPApplicationInfoBundleIdentifierKey, _RPRecordingErrorDomain, 
+                       _RPScreenRecorderRequiredFreeSpace, _RPScreenRecorderTempDirectory, 
+                       _RPStoreInfoAppNameKey, _RPStoreInfoAuthorKey, _RPStoreInfoBundleIDKey, 
+                       _RPStoreInfoCategoriesKey, _RPStoreInfoItemURLKey, _RPVideoEditorExtensionAppNameKey, 
+                       _RPVideoEditorExtensionBundleIdentifierKey, _RPVideoEditorExtensionFileAttachmentKey, 
+                       _RPVideoEditorExtensionMoviePathKey, _RPVideoEditorExtensionOverrideShareMessageKey, 
+                       _RPVideoEditorExtensionOverrideTintColorKey, _RPVideoOverlayBackgroundMaskImageName, 
+                       _RPVideoOverlayDefaultGlyphAlpha, _RPVideoOverlayFlatBackgroundAlpha, 
+                       _RPVideoOverlayFlatBackgroundWhite, _RPVideoOverlayGlyphMaskImageName, 
+                       _RPVideoOverlayHighlightedGlyphAlpha, _RPVideoSampleOrientationKey, 
+                       _ReplayKitVersionNumber, _ReplayKitVersionString, __broadcastURL ]
+    objc-classes:    [ RPBroadcastActivityExtensionHostContext, RPBroadcastActivityHostViewController, 
+                       RPBroadcastActivityViewController, RPBroadcastConfiguration, 
+                       RPBroadcastController, RPBroadcastExtensionContext, RPBroadcastExtensionHostContext, 
+                       RPBroadcastExtensionViewController, RPBroadcastHandler, RPBroadcastHostViewController, 
+                       RPBroadcastIndicatorWindow, RPBroadcastMP4ClipHandler, RPBroadcastSampleHandler, 
+                       RPBroadcastViewController, RPDaemonProxy, RPExtensionContext, 
+                       RPFlatVideoOverlayButton, RPHighFidelityVideoOverlayButton, 
+                       RPPassThroughView, RPPictureInPictureController, RPPictureInPictureViewController, 
+                       RPPictureInPictureWindow, RPPipView, RPPipViewController, 
+                       RPPreviewViewController, RPScreenRecorder, RPSharedConstants, 
+                       RPStoreInfo, RPStoreManager, RPSystemRecordingIndicatorWindow, 
+                       RPTouchPassthroughView, RPVideoEditorExtensionHostContext, 
+                       RPVideoEditorHostViewController, RPYouTubeActivityProgressOverlay ]
+...

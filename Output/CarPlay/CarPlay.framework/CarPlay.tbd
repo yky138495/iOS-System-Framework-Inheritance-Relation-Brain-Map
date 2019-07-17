@@ -1,0 +1,21 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 00000000-0000-0000-0000-000000000000', 'x86_64: 7AD3BFD6-FB03-3F27-AD2C-0E98B9ACC8C0' ]
+platform:        ios
+install-name:    /System/Library/Frameworks/CarPlay.framework/CarPlay
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _CPColorMeetsContrastRequirement, _CPContrastRatioForColors, 
+                       _CPContrastingColorForColor, _CPGuidanceStyleForColor, _CPLuminanceForColor, 
+                       _CPMaximumListItemImageSize, _CPSanitizedBackgroundColor, 
+                       _kCPGridTemplateMaximumItems ]
+    objc-classes:    [ CPActionSheetTemplate, CPAlertAction, CPAlertTemplate, CPBarButton, 
+                       CPEndpointListenerWrapper, CPGridButton, CPGridTemplate, CPImageSet, 
+                       CPInterfaceController, CPListItem, CPListSection, CPListTemplate, 
+                       CPManeuver, CPMapButton, CPMapTemplate, CPNavigationAlert, 
+                       CPNavigationSession, CPRequestEndpointAction, CPRouteChoice, 
+                       CPSearchTemplate, CPSessionConfiguration, CPTemplate, CPTravelEstimates, 
+                       CPTrip, CPTripPreviewTextConfiguration, CPVoiceControlState, 
+                       CPVoiceControlTemplate, CPWindow ]
+...

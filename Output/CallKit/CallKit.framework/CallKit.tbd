@@ -1,0 +1,41 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 0D760A25-CE1B-370A-A302-8D0435E99427', 'x86_64: F92563A0-C188-33FC-99AC-E825F555D730' ]
+platform:        ios
+install-name:    /System/Library/Frameworks/CallKit.framework/CallKit
+objc-constraint: none
+exports:         
+  - archs:           [ i386 ]
+    objc-classes:    [ CXCallActionResponse, CXCallDirectoryBlockingEntryData, CXCallDirectoryBlockingEntryMutableData, 
+                       CXCallDirectoryEntryData, CXCallDirectoryIdentificationEntryData, 
+                       CXCallDirectoryIdentificationEntryMutableData ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _CXCallDirectoryDefaultHostBundleIdentifier, _CXCallDirectoryDefaultHostServiceName, 
+                       _CXCallDirectoryMaintenanceHostBundleIdentifier, _CXCallDirectoryMaintenanceHostServiceName, 
+                       _CXCallDirectoryManagerIdentificationEntriesChangedNotification, 
+                       _CXCallDirectoryStoreExtensionsChangedNotification, _CXCallDirectoryStoreMigratorLatestSchemaVersion, 
+                       _CXErrorDomain, _CXErrorDomainCallDirectoryManager, _CXErrorDomainCallDirectoryStore, 
+                       _CXErrorDomainIncomingCall, _CXErrorDomainRequestTransaction ]
+    objc-classes:    [ CXAccount, CXAction, CXAnswerCallAction, CXCall, CXCallAction, 
+                       CXCallController, CXCallControllerHost, CXCallDirectoryExtension, 
+                       CXCallDirectoryExtensionContext, CXCallDirectoryExtensionManager, 
+                       CXCallDirectoryHost, CXCallDirectoryIdentificationEntry, CXCallDirectoryLabeledPhoneNumberEntryData, 
+                       CXCallDirectoryManager, CXCallDirectoryMutableLabeledPhoneNumberEntryData, 
+                       CXCallDirectoryMutablePhoneNumberEntryData, CXCallDirectoryNSExtensionManager, 
+                       CXCallDirectoryPhoneNumberEntryData, CXCallDirectoryProvider, 
+                       CXCallDirectorySanitizer, CXCallDirectoryStore, CXCallDirectoryStoreExtension, 
+                       CXCallDirectoryStoreIdentificationEntry, CXCallDirectoryStoreMigrationResult, 
+                       CXCallDirectoryStoreMigrator, CXCallFailureContext, CXCallObserver, 
+                       CXCallSource, CXCallSourceManager, CXCallUpdate, CXEndCallAction, 
+                       CXExtensionCallSource, CXExtensionProvider, CXHandle, CXHandoffContext, 
+                       CXInProcessCallSource, CXInProcessProvider, CXJoinCallAction, 
+                       CXLabeledHandle, CXPlayDTMFCallAction, CXProvider, CXProviderConfiguration, 
+                       CXProviderExtensionContext, CXProviderExtensionHostContext, 
+                       CXProviderExtensionVendorContext, CXPullCallAction, CXSendMMIOrUSSDCodeAction, 
+                       CXSenderIdentity, CXSetGroupCallAction, CXSetHeldCallAction, 
+                       CXSetMutedCallAction, CXSetRelayingCallAction, CXSetSendingVideoCallAction, 
+                       CXSetTTYTypeCallAction, CXSetVideoPresentationSizeCallAction, 
+                       CXSetVideoPresentationStateCallAction, CXStartCallAction, 
+                       CXTransaction, CXTransactionGroup, CXTransactionManager, CXXPCCallSource, 
+                       CXXPCProvider ]
+...

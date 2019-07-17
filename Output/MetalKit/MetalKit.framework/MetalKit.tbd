@@ -1,0 +1,35 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 2D9D2082-BAEE-39A6-A6AC-A11098EFB7FF', 'x86_64: 5E05450D-C808-3377-8C48-E00AEC1795EC' ]
+platform:        ios
+install-name:    /System/Library/Frameworks/MetalKit.framework/MetalKit
+current-version: 113
+objc-constraint: none
+exports:         
+  - archs:           [ i386 ]
+    symbols:         [ _MTKTextureLoaderOptionCubeFromVerticalTexture, _MetalKitVersionNumber, 
+                       _MetalKitVersionString, _PVR3SizedFormat, __MTKModelErrorWithCode, 
+                       __MTKModelErrorWithCodeAndErrorString, __MTKModelErrorWithCodeAndUserInfo, 
+                       __mtkLinkedOSVersion, __mtkLinkedOnOrAfter, __newMTKTextureErrorWithCode, 
+                       __newMTKTextureErrorWithCodeAndErrorString, __newMTKTextureErrorWithCodeAndUserInfo, 
+                       _gCGColorSpaceModelString, _gCGImageAlphaString, _gCGImageBitmapByteOrder, 
+                       _gCGImageComponentTypeString, _gKTXFileIdentifier, _printIndices16, 
+                       _printIndices32, _reflectImage ]
+    objc-classes:    [ MTKMeshBufferHolder, MTKMeshBufferZone, MTKTextureIOBuffer, 
+                       MTKTextureIOBufferAllocator, MTKTextureIOBufferMap, MTKTextureLoaderData, 
+                       MTKTextureLoaderImageIO, MTKTextureLoaderKTX, MTKTextureLoaderMDL, 
+                       MTKTextureLoaderPVR, MTKTextureLoaderPVR3, MTKTextureUploader ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _MTKMetalVertexDescriptorFromModelIO, _MTKMetalVertexDescriptorFromModelIOWithError, 
+                       _MTKMetalVertexFormatFromModelIO, _MTKModelErrorDomain, _MTKModelErrorKey, 
+                       _MTKModelIOVertexDescriptorFromMetal, _MTKModelIOVertexDescriptorFromMetalWithError, 
+                       _MTKModelIOVertexFormatFromMetal, _MTKTextureLoaderCubeLayoutVertical, 
+                       _MTKTextureLoaderErrorDomain, _MTKTextureLoaderErrorKey, _MTKTextureLoaderOptionAllocateMipmaps, 
+                       _MTKTextureLoaderOptionCubeLayout, _MTKTextureLoaderOptionGenerateMipmaps, 
+                       _MTKTextureLoaderOptionOrigin, _MTKTextureLoaderOptionSRGB, 
+                       _MTKTextureLoaderOptionTextureCPUCacheMode, _MTKTextureLoaderOptionTextureStorageMode, 
+                       _MTKTextureLoaderOptionTextureUsage, _MTKTextureLoaderOriginBottomLeft, 
+                       _MTKTextureLoaderOriginFlippedVertically, _MTKTextureLoaderOriginTopLeft ]
+    objc-classes:    [ MTKMesh, MTKMeshBuffer, MTKMeshBufferAllocator, MTKSubmesh, 
+                       MTKTextureLoader, MTKView ]
+...
