@@ -29,19 +29,19 @@ DB：
 
 创建DB的SQL语句
 ```
-**"CREATE TABLE sys_framework(\**
+"CREATE TABLE sys_framework(\
 
-**ID  INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,\**
+ID  INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,\
 
-**name  TEXT UNIQUE  NOT NULL,\**
+name  TEXT UNIQUE  NOT NULL,\
 
-**super_name  TEXT  NOT NULL,\**
+super_name  TEXT  NOT NULL,\
 
-**type  TEXT ,\**
+type  TEXT ,\
 
-**dome  TEXT ,\**
+dome  TEXT ,\
 
-**protol  TEXT);"**
+protol  TEXT);"
 ```
 
 Doc：生成图片脑图（待完成）
