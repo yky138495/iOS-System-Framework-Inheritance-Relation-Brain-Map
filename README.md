@@ -5,17 +5,17 @@ IOS 系统Frameworks  路径位置
 
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/IPhoneSimulator.sdk/System/Library/Frameworks/
 
-#目录说明
+# 目录说明
 
-##Frameworks：
+## Frameworks：
 
 1:来自IOS 系统Frameworks复制
 
-##Output：
+## Output：
 
 1:使用脚本遍历系统的Frameworks生成对应库中类的继承关系
 
-##Tools：
+## Tools：
 
 1:iOS_system_framework_sqllitte.py : 基于某一个库生成继承关系的sqllite数据库
 
@@ -25,7 +25,7 @@ IOS 系统Frameworks  路径位置
 
 4:move_db.sh：归档工具，把所有的子文件夹中的DB迁移到统一的DB目录中，方便查看
 
-##DB：
+## DB：
 
 创建DB的SQL语句
 ```
@@ -44,7 +44,7 @@ dome  TEXT ,\
 protol  TEXT);"
 ```
 
-##Doc：生成图片脑图（待完成）
+## Doc：生成图片脑图（待完成）
 
-##Brain：脑图工具做脑图（待完成）
+## Brain：脑图工具做脑图（待完成）
 
