@@ -28,7 +28,7 @@ Tools：
 DB：
 
 创建DB的SQL语句
-
+```
 **"CREATE TABLE sys_framework(\**
 
 **ID  INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,\**
@@ -42,6 +42,7 @@ DB：
 **dome  TEXT ,\**
 
 **protol  TEXT);"**
+```
 
 Doc：生成图片脑图（待完成）
 
